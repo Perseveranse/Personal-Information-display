@@ -1,0 +1,9 @@
+=include <iostream>
+using namaspace std;
+int main() {
+    string name;
+    cout<<"Enter your name: ";
+    getline(cin, name);
+    cout<<"Your name is: "<<name;
+    return 0;
+}
